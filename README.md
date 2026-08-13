@@ -29,3 +29,6 @@ Variáveis necessárias:
 Pauta recebida → triagem → checagem → rascunho → revisão humana → publicação.
 
 Conteúdo enviado por leitores nunca é publicado automaticamente.
+
+## Implantação
+Repositório conectado à Vercel. Alterações na branch `main` devem gerar uma nova implantação automática.
