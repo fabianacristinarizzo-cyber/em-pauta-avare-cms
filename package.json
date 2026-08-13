@@ -1,0 +1,9 @@
+{
+  "name": "em-pauta-avare-cms",
+  "version": "3.0.0",
+  "private": true,
+  "engines": {"node": ">=20"},
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2"
+  }
+}
