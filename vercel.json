@@ -1,0 +1,11 @@
+{
+  "rewrites": [
+    {"source":"/","destination":"/api"},
+    {"source":"/materia/:slug","destination":"/api?view=article&slug=:slug"},
+    {"source":"/reels","destination":"/api?view=reels"},
+    {"source":"/admin","destination":"/api?view=admin"},
+    {"source":"/admin/login","destination":"/api?view=login"},
+    {"source":"/action/:name","destination":"/api?view=action&name=:name"},
+    {"source":"/pauta","destination":"/api?view=pauta"}
+  ]
+}
