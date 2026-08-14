@@ -1,10 +1,8 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
-  "buildCommand": "",
   "functions": {
     "api/*.js": {
-      "runtime": "nodejs22.x",
       "maxDuration": 15
     }
   },
